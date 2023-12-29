@@ -4,6 +4,7 @@ import User from '@models/User';
 import { connectToDB } from '@utils/database';
 
 export const options = {
+    secret: process.env.NEXTAUTH_SECRET,
     providers: [
         CredentialsProvider({
           // The name to display on the sign in form (e.g. "Sign in with...")
