@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -10,64 +10,67 @@
 */
 
 body {
-    font-family: Montserrat;
+  font-family: Montserrat;
 }
 
 .card-wrapper {
-    display: inline-flex;
-    height: 504px;
-    padding: 8px 8px 16px 8px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 16px;
-    flex-shrink: 0;
-  
-    border-radius: 12px;
-    background: var(--Card-color, #092C39);
-    backdrop-filter: blur(100px);
-  }
+  display: inline-flex;
+  padding: 8px 8px 16px 8px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  flex-shrink: 0;
+
+  border-radius: 12px;
+  background: var(--Card-color, #092c39);
+  backdrop-filter: blur(100px);
+}
 
 h1 {
-    font-size: 64px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 80px; /* 125% */
+  color: var(--Grey-100, #c3c8d4);
+  font-family: Montserrat;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 80px; /* 125% */
 }
 
 h2 {
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 56px;
+  color: var(--Grey-100, #c3c8d4);
+  font-family: Montserrat;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px; /* 116.667% */
 }
 
 .pagination {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .pagination li {
-    color: #FFF;
-    padding: 8px 16px;
-    cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
 
-    text-align: center;
-    /* Body/Regular */
-    font-family: Montserrat;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 24px; /* 150% */
-    border-radius: 4px;
-    background: #092C39;
-    margin-left: 16px;
-    margin-top: 124px;
-  }
-  
-  .pagination .active {
-    border-radius: 4px;
-    background: var(--Primary, #2BD17E);
-  }
+.pagination li {
+  color: #fff;
+  padding: 8px 16px;
+  cursor: pointer;
+
+  text-align: center;
+  /* Body/Regular */
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 150% */
+  border-radius: 4px;
+  background: #092c39;
+  margin-left: 16px;
+  margin-top: 124px;
+}
+
+.pagination .active {
+  border-radius: 4px;
+  background: var(--Primary, #2bd17e);
+}
 
 .main {
   width: 100vw;
@@ -80,25 +83,25 @@ h2 {
 }
 
 .bg-drop-image {
-    background: var(--input-color, #224957);
-    height: 504px;
+  background: var(--input-color, #224957);
+  height: 504px;
 }
 
 .bg-input-color {
-    background: var(--input-color, #224957);
+  background: var(--input-color, #224957);
 }
 
 .placeholder-white::placeholder {
-    color: #FFF;
+  color: #fff;
 }
 
 .footer {
-    position: fixed;
-    width: 100%;
-    height: 111px;
-    bottom: 0;
-    background-image: url("/assets/images/footer.svg");
-    background-size: cover
+  position: fixed;
+  width: 100%;
+  height: 111px;
+  bottom: 0;
+  background-image: url("/assets/images/footer.svg");
+  background-size: cover;
 }
 
 .main:before {
@@ -110,7 +113,6 @@ h2 {
   height: 100%;
   top: 0;
 }
-
 
 .main:after {
   content: "";

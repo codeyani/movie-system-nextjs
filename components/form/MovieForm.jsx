@@ -74,7 +74,7 @@ const MovieForm = ({ form, type, submitting, acceptedFiles, setAcceptedFiles, ha
                       <FormItem>
                         <FormControl>
                           <Input
-                            className="mt-6 w-56"
+                            className="mt-6 xl:w-56 sm:w-full"
                             placeholder='Publishing year'
                             {...field}
                           />
