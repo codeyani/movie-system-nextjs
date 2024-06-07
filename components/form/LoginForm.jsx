@@ -67,8 +67,6 @@ const LoginForm = () => {
   return (
     <Form {...form}>
       <h1 className="text-white text-center">Sign in</h1>
-      <p>Username: user@example.com</p>
-      <p>Password: qwer1234</p>
       <form onSubmit={form.handleSubmit(onSubmit)} className='w-full mt-10'>
         <div className='space-y-2'>
           <FormField

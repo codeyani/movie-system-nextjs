@@ -52,6 +52,13 @@ After setting up the environment variables, run the development server:
 npm run dev
 ```
 
+- try test account:
+
+```bash
+Username: user@example.com
+Password: qwer1234
+```
+
 ## Live Preview
 You can check out a live preview of the application deployed on Vercel by visiting the following link:
 [LIVE PREVIEW](https://movie-system-nextjs-eplhlofm7-codeyanis-projects.vercel.app/)
